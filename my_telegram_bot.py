@@ -1,7 +1,7 @@
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 
-# Function to generate responses from LLM (Replace with TinyLlama or OpenAI function)
+# Function to generate responses from LLM 
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 # Load the Hugging Face model and tokenizer
